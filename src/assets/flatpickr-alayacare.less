@@ -1,0 +1,35 @@
+/* Overriding default Flatpickr styles */
+.flatpickr{
+  a{
+    padding:3px;
+    cursor: pointer;
+  }
+}
+.flatpickr-calendar, .flatpickr-days, .dayContainer{
+    width: 285px;
+    min-width: 285px;
+    max-width: 285px;
+  }
+  .flatpickr-month{
+    background: #F8F8F8;
+    background: -moz-linear-gradient(top, #F8F8F8 0%, #ececec 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F8F8F8), color-stop(100%,#ececec));
+    background: -webkit-linear-gradient(top, #F8F8F8 0%,#ececec 100%);
+    background: -o-linear-gradient(top, #F8F8F8 0%,#ececec 100%);
+    background: -ms-linear-gradient(top, #F8F8F8 0%,#ececec 100%);
+    background: linear-gradient(top, #F8F8F8 0%,#ececec 100%);
+  }
+  .flatpickr-current-month {
+    font-size: 111%;
+    span.cur-month {
+      font-family: sans-serif;
+    }
+  }
+  .flatpickr-day{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+  }
+  .flatpickr-prev-month, .flatpickr-next-month{
+    padding: 7px calc(3.57% - 1.5px);
+  }
